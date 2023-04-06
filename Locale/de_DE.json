@@ -1,42 +1,124 @@
 {
   "root":[],
   "commands":[{
-    "comm-link": {
-      "des": "Erzeugt eine Informationskarte zu den aktuellsten Comm-Links.",
-      "option-add":{
-        "name": "Add",
-        "des": "Hinzufügen des aktuellen Kanals zu Benachrichtigungen."
+    "comm-link":[{
+      "des":"Erzeugt eine Informationskarte zu den aktuellsten Comm-Links.",
+      "addBooleanOption-add":{
+        "name":"Add",
+        "des":"Hinzufügen des aktuellen Kanals zu Benachrichtigungen."
       },
-      "option-remove":{
-        "name": "remove",
-        "des": "Entfernen des aktuellen Kanals von Benachrichtigungen."
+      "addBooleanOption-remove":{
+        "name":"remove",
+        "des":"Entfernen des aktuellen Kanals von Benachrichtigungen."
       },
-      "editReply": {
-        "content": "Interner Fehler: Konnte Befehl nicht ausführen."
+      "interaction":{
+        "editReply":{
+          "content":"Interner Fehler: Konnte Befehl nicht ausführen."
+        }
       }
-    },
-    "galactapedia": {
-      "des": "Erzeugt eine Informationskarte zu einem bestimmten Galactapedia Artikel.",
-      "option": {
-        "name": "suche",
-        "des": "Auflistung des ersten Artikels der zum Suchwort passt."
+    }],
+    "galactapedia":[{
+      "des":"Erzeugt eine Informationskarte zu einem bestimmten Galactapedia Artikel.",
+      "addStringOption":{
+        "name":"suche",
+        "des":"Auflistung des ersten Artikels der zum Suchwort passt."
       }
-    },
-    "item": {
-      "des": "Informationen zu allen Items aus Star Citizen.",
-      "option": {
-        "name": "name",
-        "des": "name des Items."
+    }],
+    "item":[{
+      "des":"Informationen zu allen Items aus Star Citizen.",
+      "addStringOption":{
+        "name":"name",
+        "des":"name des Items."
       }
-    },
-    "manufacturer": {
-      "name": "hersteller",
-      "Des": "Erzeugt eine Informationskarte zu einem bestimmten Hersteller.",
-      "Option": {
-        "name": "name",
-        "des": "Name des Herstellers."
+    }],
+    "manufacturer":[{
+      "name":"hersteller",
+      "Des":"Erzeugt eine Informationskarte zu einem bestimmten Hersteller.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Name des Herstellers."
       }
-    }
+    }],
+    "nation":[{
+      "name":"volk",
+      "description":"Erzeugt eine Informationskarte zu einem Volk.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Name des Volks"
+      }
+    }],
+    "person":[{
+      "name":"person",
+      "des":"Erzeugt eine Informationskarte zu einer bestimmten Person.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Ausgabe der Informationen einer Person."
+      },
+      "addIntegerOption":{
+        "name":"seite",
+        "des":"Ändern der Seite, bei Ausgabe aller Personen."
+      }
+    }],
+    "ship":[{
+      "name":"schiff",
+      "des":"Erzeugt eine Informationskarte zu einem bestimmten Raumschiff oder Fahrzeug.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Name des Raumschiffs."
+      }
+    }],
+    "starsystem":[{
+      "name":"system",
+      "des":"Erzeugt eine Informationskarte zu Sternensystemen.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Name des Sternensystems, z.B. Stanton."
+      },
+      "addIntegerOption":{
+        "name":"seite",
+        "des":"Ändern der Seite, bei Ausgabe aller Sternensysteme."
+      }
+    }],
+    "stat":[{
+      "name":"stats",
+      "des":"Erzeugt eine Informationskarte zu den aktuellen Spendenstatistiken und der Anzahl Citizens.",
+      "MessageEmbed":{
+        "title":"Star Citizen Statistiken"
+      },
+      "reply":{
+        "addField":"Spenden"
+      }
+    }],
+    "status":[{
+      "name":"status",
+      "des":"Erzeugt eine Informationskarte zu dem aktuellen RSI Systemstatus.",
+      "addBooleanOption-latest":{
+        "name":"latest",
+        "des":"Anzeige des letzten Vorfalls."
+      },
+      "addBooleanOption-add":{
+        "name":"add",
+        "des":"Hinzufügen des aktuellen Kanals zu Benachrichtigungen."
+      },
+      "addBooleanOption-remove":{
+        "name":"remove",
+        "des":"Entfernt den aktuellen Kanal von Benachrichtigungen."
+      },
+      "interaction":{
+        "editReply":{
+          "content":"Option muss auf \"true\" gesetzt werden."
+        }
+      }
+
+    }],
+    "vehicle":[{
+      "name":"fahrzeug",
+      "des":"Erzeugt eine Informationskarte zu einem bestimmten Fahrzeug oder Raumschiff.",
+      "addStringOption":{
+        "name":"name",
+        "des":"Name des Fahrzeugs."
+      }
+    }]
   }],
   "docs":[],
   "lib":[],

@@ -4,6 +4,7 @@ const Discord = require('discord.js');
 const axios = require('../lib/request/request');
 const { footer } = require('../config.json');
 
+/* Need to convert this to a switch statement for locale */
 const formatFunds = (funds) => {
   const intVal = parseInt(funds.substring(0, funds.length - 3), 10);
 
@@ -38,6 +39,7 @@ module.exports = {
 
     reply
       .addField('Spenden', formatFunds(result.funds), true)
+      /* need to convert this to a switch for local */
       .addField('Fleet', result.fleet.toLocaleString('de-DE'), true);
 
     await interaction.editReply({ embeds: [reply] });
