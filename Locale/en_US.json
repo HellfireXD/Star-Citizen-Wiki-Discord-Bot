@@ -1,0 +1,9 @@
+{
+  "commands":{
+    "comm-link": {
+      "des": "Generates an information card for the most recent Comm-Links.",
+      "add-des": "Add current channel to notifications.",
+      "rem-des": "Remove current channel from notifications."
+    }
+  }
+}
