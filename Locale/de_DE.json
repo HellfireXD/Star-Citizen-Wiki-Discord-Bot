@@ -1,5 +1,6 @@
 {
-  "commands":{
+  "root":[],
+  "commands":[{
     "comm-link": {
       "des": "Erzeugt eine Informationskarte zu den aktuellsten Comm-Links.",
       "option-add":{
@@ -36,5 +37,9 @@
         "des": "Name des Herstellers."
       }
     }
-  }
+  }],
+  "docs":[],
+  "lib":[],
+  "migrations":[],
+  "schedule":[]
 }
