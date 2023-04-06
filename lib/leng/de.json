@@ -1,0 +1,7 @@
+{
+  "comm-link": {
+    "des": "Erzeugt eine Informationskarte zu den aktuellsten Comm-Links."
+    "adddes": "Hinzufügen des aktuellen Kanals zu Benachrichtigungen."
+    "remdes": "Entfernen des aktuellen Kanals von Benachrichtigungen."
+  }
+}
