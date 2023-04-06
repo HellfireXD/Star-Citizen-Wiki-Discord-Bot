@@ -4,19 +4,24 @@ The locale json files add support for multiple lenguages.
 ## Supported lenguages
 
 ### Current
+
+![](https://progress-bar.dev/1/?scale=2&suffix=%2F2&title=Supported)
+
 - [ ] en_US
 - [x] de_DE *
 
 <sub>* hardcoded, not supported by locale json file</sub>
 
-### Work in progress
+### Work in progress 
+![](https://progress-bar.dev/1/?scale=2&suffix=%2F2&title=Started)
 
 - [ ] en_US
 - [x] de_DE
 
 ### Conversion from hardcode to json
 
-![0%](https://progress-bar.dev/0?title=completed)
+![](https://progress-bar.dev/0/?title=Completed)
+
 
 ## File Structure
 Locale is stored as json files where opjects follow the data structure.
