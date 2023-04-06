@@ -1,0 +1,40 @@
+{
+  "commands":{
+    "comm-link": {
+      "des": "Erzeugt eine Informationskarte zu den aktuellsten Comm-Links.",
+      "option-add":{
+        "name": "Add",
+        "des": "Hinzufügen des aktuellen Kanals zu Benachrichtigungen."
+      },
+      "option-remove":{
+        "name": "remove",
+        "des": "Entfernen des aktuellen Kanals von Benachrichtigungen."
+      },
+      "editReply": {
+        "content": "Interner Fehler: Konnte Befehl nicht ausführen."
+      }
+    },
+    "galactapedia": {
+      "des": "Erzeugt eine Informationskarte zu einem bestimmten Galactapedia Artikel.",
+      "option": {
+        "name": "suche",
+        "des": "Auflistung des ersten Artikels der zum Suchwort passt."
+      }
+    },
+    "item": {
+      "des": "Informationen zu allen Items aus Star Citizen.",
+      "option": {
+        "name": "name",
+        "des": "name des Items."
+      }
+    },
+    "manufacturer": {
+      "name": "hersteller",
+      "Des": "Erzeugt eine Informationskarte zu einem bestimmten Hersteller.",
+      "Option": {
+        "name": "name",
+        "des": "Name des Herstellers."
+      }
+    }
+  }
+}
