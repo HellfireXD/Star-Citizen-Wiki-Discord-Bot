@@ -4,14 +4,14 @@ The locale json files add support for multiple lenguages.
 ## Supported lenguages
 
 ### Current
-- [] en_US
+- [ ] en_US
 - [x] de_DE *
 
 <sub>* hardcoded, not supported by locale json file</sub>
 
 ### Work in progress
 
-- [] en_US
+- [ ] en_US
 - [x] de_DE
 
 ## File Structure
